@@ -3,8 +3,8 @@ This repository contains Cython source code for calculating wet-bulb temperature
 
 
 ### What is in this repository?
-- `./src/`: Cython source files (```.pyx``` file) for calculating Tw; Cython source file needs to be compiled first to generate shared object files (```.so``` file) that can be directly imported in Python. Setup tools (```.py``` file) are recommended for building Cython source file.
-- `./Jupyter_notebooks/`: A jupyter nobtebook introducing the usage of the code. 
+- `Cython source files (```wetbulb.pyx``` file) for calculating Tw; Cython source file needs to be compiled first to generate shared object files (```.so``` file) that can be directly imported in Python. Setup tools (```.py``` file) are recommended for building Cython source file.
+- `Calculate_Tw_with_CMIP6_data.ipynb`: A jupyter nobtebook introducing the usage of the code. 
 - `environment.yml` a YAML file that can be used to build conda environment containing all needed python packages.
 
 ****
